@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file_path = '/Users/liangying/Desktop/航港數據競賽/code/兩岸TEU數:噸數:艘次/兩岸貿易統計.csv'
+file_path = '/Users/liangying/Desktop/Maritime-and-Port-Bureau-Innovative-Big-Data-Competition/兩岸TEU數:噸數:艘次/raw/兩岸貿易統計.csv'
 data = pd.read_csv(file_path)
 
 data['期間'] = pd.to_numeric(data['期間'], errors='coerce')

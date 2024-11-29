@@ -11,7 +11,7 @@ import ruptures as rpt
 plt.rcParams['font.family'] = 'Heiti TC'
 
 # Load the data
-file_path = '/Users/liangying/Desktop/航港數據競賽/code/兩岸TEU數:噸數:艘次/8.TEU進出轉口合併.csv'  
+file_path = '/Users/liangying/Desktop/Maritime-and-Port-Bureau-Innovative-Big-Data-Competition/兩岸TEU數:噸數:艘次/processed/8.TEU進出轉口合併.csv'  
 data = pd.read_csv(file_path)
 
 # Filter data for "出口" (Export) and "來源港" as "高雄港(TWKHH)"

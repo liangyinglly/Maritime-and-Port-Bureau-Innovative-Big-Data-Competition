@@ -5,7 +5,7 @@ from sklearn.neighbors import LocalOutlierFactor
 from statsmodels.tsa.stattools import adfuller
 
 # 讀取處理後的數據
-file_path = '/Users/liangying/Desktop/航港數據競賽/code/兩岸TEU數:噸數:艘次/8.TEU進出轉口合併.csv'
+file_path = '/Users/liangying/Desktop/Maritime-and-Port-Bureau-Innovative-Big-Data-Competition/兩岸TEU數:噸數:艘次/processed/8.TEU進出轉口合併.csv'
 data = pd.read_csv(file_path)
 
 # 將日期列轉換為datetime格式
