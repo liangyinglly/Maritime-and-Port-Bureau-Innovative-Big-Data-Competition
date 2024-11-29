@@ -1,4 +1,4 @@
-# Maritime-and-Port-Bureau-Innovative-Big-Data-Competition
+# 2024 Maritime-and-Port-Bureau-Innovative-Big-Data-Competition
 
 This project analyzes cross-strait trade between Taiwan and China using time series data from the Maritime and Port Bureau's iMarine database. We use SARIMA modeling to forecast TEU (Twenty-foot Equivalent Unit) trends for imports, exports, and transportation.
 
@@ -76,3 +76,4 @@ By conducting a correlation analysis, the relevant data can be included in the m
 ## Acknowledgments
 - Maritime and Port Bureau for providing the iMarine database.
 - Team members: 黃亮穎、李舲熏、李奕蓁、黃冠蓁、顏嘉緯、許銘聰
+- Competition duration: 2024.05-2024.08
