@@ -1,6 +1,7 @@
 # Maritime-and-Port-Bureau-Innovative-Big-Data-Competition
 Time series analysis of cross-strait trade between Taiwan and China
 
+```
 Maritime-and-Port-Bureau-Innovative-Big-Data-Competition/
 ├── 兩岸TEU數:噸數:艘次/                        #data provided by iMarine database by Maritime and Port Bureau
 │   ├── processed
@@ -9,16 +10,20 @@ Maritime-and-Port-Bureau-Innovative-Big-Data-Competition/
 │   │   ├── 1.從中國進口貨櫃teu數.xlsx
 │   │   ├── ....
 │   │   ├── 兩岸貿易統計.csv
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Sarima.ipynb
+├── notebooks/exploratory
+│   ├── test.ipynb
+│   ├── test2.py
+│   ├── test3.py
+│   ├── testv2.py
 ├── scripts/
-│   ├── analysis.py
-│   ├── prep.py
-│   ├── visualization.py
-│   ├── forecast.py
+│   ├── predata.py
+│   ├── prediction.py
+│   ├── SARIMA.py
+│   ├── trade.py
+│   ├── tradeportion.py
 ├── visuals/
-│   ├── trend_analysis.png
-│   ├── forecast_plot.png
+│   ├── decomposition.py
+│   ├── monthlyGraph.py
 ├── requirements.txt
 ├── README.md
+```
